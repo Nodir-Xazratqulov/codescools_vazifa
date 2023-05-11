@@ -1,18 +1,16 @@
-a = 362
+a = 123
 b = a%10
-c = a//10
-d = c%10
-e = a//100
-# s = b*100+(d*10)+e
-# print(s)
-print(b,d,e, sep='')
+s = a//10
+d = s%10
+e = s//10
+print(d)
 
-b = 784
-v = b%10
-c = b//10
-d = c%10
-e = b//100
-# s = v*100+(d*10)+e
-# print(s)
-print(v,d,e, sep='')
+
+b = 351
+f = b%10
+s = b//10
+d = s%10
+e = s//10
+print(d)
+
 
