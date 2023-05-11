@@ -1,9 +1,11 @@
-a = 45
+a = 34
 x = a%10
 y = a//10
-print(x+y)
+s = x*10+y
+print(s)
 
-b = 56
+b = 81
 x = b%10
 y = b//10
-print(x+y)
+s = y*10+x
+print(s)
