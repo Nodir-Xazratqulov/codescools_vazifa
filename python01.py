@@ -1,5 +1,5 @@
-a = 24
-print(a%10)
+a = 34
+print(a//10)
 
-b = 78
-print(b%10)
+b = 56
+print(b//10)
