@@ -1,11 +1,13 @@
-a = 34
+a = 123
 x = a%10
 y = a//10
-s = x*10+y
-print(s)
+z = y%10
+s = a//100
+print(x+z+s)
 
-b = 81
-x = b%10
-y = b//10
-s = y*10+x
-print(s)
+b = 247
+t = b%10
+e = b//10
+u = e%10
+d = b//100
+print(t+u+d)
