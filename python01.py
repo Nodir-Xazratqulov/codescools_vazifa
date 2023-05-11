@@ -1,13 +1,18 @@
-a = 123
-x = a%10
-y = a//10
-z = y%10
-s = a//100
-print(x+z+s)
+a = 362
+b = a%10
+c = a//10
+d = c%10
+e = a//100
+# s = b*100+(d*10)+e
+# print(s)
+print(b,d,e, sep='')
 
-b = 247
-t = b%10
-e = b//10
-u = e%10
-d = b//100
-print(t+u+d)
+b = 784
+v = b%10
+c = b//10
+d = c%10
+e = b//100
+# s = v*100+(d*10)+e
+# print(s)
+print(v,d,e, sep='')
+
